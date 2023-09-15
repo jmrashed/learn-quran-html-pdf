@@ -2,7 +2,10 @@
 
 The Online Bookstore is a web application that allows users to browse, search, and purchase books online. It provides a user-friendly interface for customers to explore a wide selection of books and make secure online payments.
 
-![Online Bookstore Screenshot](./screenshots/homepage.png)
+![Online Bookstore Screenshot](./assets/readme/images/Screenshot.png)
+
+[Demo] (https://esho-bishudho-quran-shikhi.vercel.app)
+
 
 ## Table of Contents
 
@@ -46,7 +49,7 @@ To use the Online Bookstore, open a web browser and navigate to `http://localhos
 - **Shopping Cart:** Add books to your cart and proceed to checkout to make secure payments.
 - **Admin Panel:** Access an admin dashboard to manage books, orders, and user accounts.
 
-<img src="./assets/readme.md/images/Screenshot.png">
+<img src="assets/readme/images/Screenshot.png">
 
 ## Features
 
