@@ -46,7 +46,7 @@ To use the Online Bookstore, open a web browser and navigate to `http://localhos
 - **Shopping Cart:** Add books to your cart and proceed to checkout to make secure payments.
 - **Admin Panel:** Access an admin dashboard to manage books, orders, and user accounts.
 
-![Shopping Cart Screenshot](./screenshots/shopping-cart.png)
+![Book](./assets/readme.md/images/Screenshot.png)
 
 ## Features
 
