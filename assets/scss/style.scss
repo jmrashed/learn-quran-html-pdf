@@ -1,0 +1,89 @@
+// 1. Import Bootstrap
+@import "../../node_modules/bootstrap/scss/bootstrap";
+// @import 'bootstrap/bootstrap';
+
+// 2. Variables
+// Define your custom variables here, such as colors, fonts, and spacing.
+$primary-color: #007bff;
+$secondary-color: #6c757d;
+// ... other variables ...
+
+// 3. Base Styles
+// Define base styles for HTML elements. You can use Bootstrap classes as well.
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+}
+
+a {
+    color: $primary-color;
+    text-decoration: none;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+// ... other base styles ...
+
+// 4. Components
+// Organize component-specific styles.
+.header {
+    background-color: $primary-color;
+    color: white;
+}
+
+.button {
+    background-color: $primary-color;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    &:hover {
+        background-color: darken($primary-color, 10%);
+    }
+}
+// ... other component styles ...
+
+// 5. Layout
+// Define layout-specific styles, such as grid systems.
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+// ... other layout styles ...
+
+// 6. Utilities
+// Define utility classes for quick styling.
+.text-center {
+    text-align: center;
+}
+
+.mt-2 {
+    margin-top: 2rem;
+}
+// ... other utility classes ...
+
+// 7. Responsive Styles
+// Define responsive styles using media queries.
+@media (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+    // ... other responsive styles ...
+}
+
+
+
+.pdf-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.pdf-content {
+    width: 100%;
+    height: 100%;
+}

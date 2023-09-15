@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>সহজ কুরআন শিক্ষা বই</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="pdf-container">
+        <iframe class="pdf-content" src="./assets/book/learn-quran.pdf"></iframe>
+    </div>
+
+    <!-- Popper.js (required for Bootstrap's tooltips, popovers, and other components) -->
+    <script src="node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <!-- PDF.js library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.min.js"></script>
+
+    <!-- JavaScript to initialize PDF.js -->
+    <script>
+        // Initialize PDF.js
+        pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.worker.min.js';
+        
+        // Code to render the PDF within the iframe
+        const pdfUrl = './assets/book/learn-quran.pdf'; // Replace with the correct path to your PDF file
+        const pdfContainer = document.querySelector('.pdf-content');
+        pdfContainer.src = pdfUrl;
+    </script>
+</body>
+
+</html>
